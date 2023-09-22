@@ -1,0 +1,25 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+body{
+    background: url(https://wallpaperaccess.com/full/85246.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.leftbox img{
+    height: 100px;
+}
+@media only screen and (max-width:400px){
+    .contactbox{
+        flex-direction: column;
+    }
+    iframe{
+        width: 100%;
+        margin-top: 10px;
+    }
+    video{width:100% !important}
+    }
